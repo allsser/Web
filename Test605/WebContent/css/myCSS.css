@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* 1em = 12Point */
+/*
+*{
+	margin: 0.5em; 
+	padding: 0;
+	color: navy;
+}
+*/
+
+
+
+h1:hover{
+	color: purple;	
+}
+h1:active {
+	color: red;
+}
+
+#header{
+	background: gray;
+	width: 100%;
+	height: 50px;
+}
+
+#menu{
+	width: 30%;
+	height: 500px;
+	background-color: silver;
+	float: left;
+
+}
+
+
+#content{
+	width: 70%;
+	height: 500px;	
+	background-color: yellow;
+	float: right;	
+
+
+}
+
+#footer{
+	text-align: right;
+	background-color: gray;
+	clear: both;
+	font-style: oblique;
+	
+}

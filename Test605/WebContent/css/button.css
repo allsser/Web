@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+a.btn {
+	text-align: center;
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid blue;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px red;
+	margin: 0 auto;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+a.btn:hover {
+	color: red;
+	text-shadow: 5px 5px 5px white;
+}
